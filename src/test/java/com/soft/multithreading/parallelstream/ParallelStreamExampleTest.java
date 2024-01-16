@@ -16,6 +16,8 @@ class ParallelStreamExampleTest {
     ParallelStreamExample parallelStreamExample=new ParallelStreamExample();
     @Test
     void stringTransform() {
+
+
         List<String> namesList= DataSet.namesList();
         startTimer();
         namesList=parallelStreamExample.stringTransform(namesList);

@@ -20,6 +20,7 @@ public class ParallelStreamResultOrder {
         log("input Set:"+inputSet);
         Set<Integer> outputSet=processSet(inputSet);
         log("Output Set:"+outputSet);
+        System.out.println(new StringBuilder(5));
     }
 
     private static List<Integer> processList(List<Integer> inputList) {
